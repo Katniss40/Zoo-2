@@ -5,15 +5,6 @@ h1 {
     text-align: center;
 }
 
-#bouton {
-    background-color: darkgreen;
-    border-radius: 15px;
-    width: 150px;
-    height: 30px;
-    border-color: azure;
-    color: rgb(202, 239, 193);
-}
-
-body {
+div {
     background-image: href="C:\Env\ECF\Zoo 2\images\Background.png";
 }
