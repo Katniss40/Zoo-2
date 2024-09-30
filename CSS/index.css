@@ -1,5 +1,38 @@
 h1 {
     background-color: antiquewhite;
-    font-family: cursive;
+    font-family: cursive, sans-serif;
     font-style: italic;
+}
+
+body {
+    font-family: cursive, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: linear-gradient(#047159, #10ca39)
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
 }

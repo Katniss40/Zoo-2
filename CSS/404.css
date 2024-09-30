@@ -1,0 +1,19 @@
+h1 {
+    background-color: darkgreen;
+    font-family: cursive, sans-serif;
+    color: rgb(202, 239, 193);
+    text-align: center;
+}
+
+#bouton {
+    background-color: darkgreen;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    border-color: azure;
+    color: rgb(202, 239, 193);
+}
+
+body {
+    background-image: href="C:\Env\ECF\Zoo 2\images\Background.png";
+}
