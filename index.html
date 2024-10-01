@@ -1,49 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/CSS/index.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css"/>
+    
     <title>Zoo Arcadia</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/pages/home.html">Accueil</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="/pages/Connexion.html">Connexion</a></li>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Habitats
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Jungle</a></li>
+                  <li><a class="dropdown-item" href="#">Marais</a></li>
+                  <li><a class="dropdown-item" href="#">Savane</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
+        
+
+        <i class="bi bi-telephone"></i>
+    </div>
     </header>
 
     <Main id="main-page">
 <h1>Page pour la création du header et du footer</h1>
   <!-- La page sera injectée ici-->
 
+
     </Main>
 
 
     <Footer>
-        
-        <div class="horaires"></div>
-        <h3 >Nos horaires</h3>
-        <p>  Tous les jours de 9h a 18h</p>
-    </div>
 
-    <div class="adresse">
-        <p> Zoo Arcadia <br/>
-        foret de Broceliade<br/>
-        Bretagne<br/>
-        tel : 01.02.03.04.05<br/>
-    </p>
-    </div>
+
+
+        <h2 class="footer"> Le footer</h2>
+
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-tiktok"></i>
+        <i class="bi bi-paypal"></i>
+        <i class="bi bi-facebook"></i>
+
+        <i class="bi bi-hand-thumbs-down-fill"></i>
+        <i class="bi bi-hand-thumbs-up-fill"></i>
 
     </Footer>
     
-<script src="routage/Router.js" type="module"></script>
-
+    <script src="Router/router.js" type="module"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
