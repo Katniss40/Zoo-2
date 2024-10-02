@@ -11964,4 +11964,57 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.accueilZoo {
+  position: relative;
+}
+.accueilZoo::before {
+  content: "";
+  position: absolue;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/image_zoo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: -1;
+}
+.accueilZoo * {
+  position: relative;
+}
+.accueilZoo .infos {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation {
+  text-align: center;
+  color: black bold;
+}
+
+.background::before {
+  content: "";
+  background-image: url("/images/Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.dropdown-menu {
+  background-color: #389019;
 }/*# sourceMappingURL=main.css.map */
